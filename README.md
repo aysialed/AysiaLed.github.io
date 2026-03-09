@@ -1,4 +1,5 @@
 # AysiaLed.github.io
+```
 midterm question response and explanation of code by Aysia and Hyunjun
 
 
@@ -83,6 +84,7 @@ With xargs, take one word in the file and holds it in a placeholder
 if the word matches with the pattern, it counts how many times it appears in the file
 //then save it in a file
 echo "word,characters,counts"
+```
 //Make an output look identical to the example output
 paste -d ',' words_list.txt counts.tmp p2.tmp | sort -t',' -k1,1f -k1,1r
 //Make an output look identical to the example output
